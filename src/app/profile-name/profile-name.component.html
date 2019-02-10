@@ -1,3 +1,84 @@
-<p>
-  profile-name works!
-</p>
+<!-- TODO: Create sideBar
+TODO: Create profile card with profile picture, contact information, and location -->
+
+<mat-drawer-container class="container">
+  <mat-drawer mode="side" opened class="drawer">
+    
+    <!-- Mat Card For Contact Information and Picture -->
+    <mat-card class="card">  
+      <mat-card-header>        
+        <mat-card-title position="start">Courtney Revada-Luz</mat-card-title>
+        <mat-card-subtitle>Software Engineer Intern</mat-card-subtitle>
+      </mat-card-header>
+      <hr>
+      <img mat-card-image src="https://get.pxhere.com/photo/programmer-typing-silhouette-computer-people-working-internet-technology-engineer-software-geek-office-adult-coding-professional-modern-keyboard-monitor-male-sitting-indoor-developer-occupation-nerd-job-black-and-white-human-behavior-line-clip-art-1445987.jpg" alt="Photo of a Developer">
+      <hr>
+      <mat-card-content>
+        <p>
+          <strong>
+            Cellphone: (916)616-3134
+            <br>
+            email: revadacourtney@gmail.com
+            <br>
+            github: https://github.com/
+            <br>
+            143 Westway Apt# 203 Greenbelt, Maryland 20770
+            </strong>
+            </p>
+      </mat-card-content>   
+    </mat-card>
+      
+    <!-- Mat Card for JS Card -->
+    <mat-card>
+      <mat-card-content>
+        <h2 class="h2">Javascript</h2>
+        <section class="section">
+          <mat-progress-bar
+            mode="determinate"
+            value="65">>
+          </mat-progress-bar>
+        </section>
+      </mat-card-content>
+    </mat-card>
+    
+    <!-- Mat card for HTML Progress Bar -->
+    <mat-card>
+      <mat-card-content>
+        <h2 class="h2">HTML</h2>
+        <section class="section">
+          <mat-progress-bar
+            mode="determinate"
+            value="75">>
+          </mat-progress-bar>
+        </section>
+      </mat-card-content>
+    </mat-card>
+      
+    <!--Mat car for Cascading Style Sheet Progress Bar  -->
+      <mat-card>
+        <mat-card-content>
+          <h2 class="h2">CSS</h2>      
+          <section class="section"> 
+            <mat-progress-bar
+              mode="determinate"
+              value="60">>
+            </mat-progress-bar>
+          </section>
+        </mat-card-content>
+      </mat-card>
+     <!--  Mat Card for Angular Progress-->
+      <mat-card>
+        <mat-card-content>
+          <h2 class="h2">Angular</h2>
+          <section class="section">
+            <mat-progress-bar
+              mode="determinate"
+              value="50">
+            </mat-progress-bar>
+          </section>
+        </mat-card-content>
+      </mat-card>
+    </mat-drawer>
+    
+  <mat-drawer-content>Main content</mat-drawer-content>
+</mat-drawer-container>
