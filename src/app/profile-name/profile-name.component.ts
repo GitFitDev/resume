@@ -19,7 +19,7 @@ export class ProfileNameComponent implements OnInit {
       {
         professionalExperience: 'MindRight', 
         jobTitle: 'Software Engineer Intern',
-        startDate: 'November 2018',
+        startDate: 'November 2018 - ',
         endDate: 'Present',
         responsibilities: [
          'Using Agile Development to handle company tasks with tickets.',
@@ -30,12 +30,12 @@ export class ProfileNameComponent implements OnInit {
       {
         professionalExperience: 'Starbucks', 
         jobTitle: 'Assistant Store Manager',
-        startDate: 'December 2017',
+        startDate: 'December 2017 -',
         endDate: 'November 2018',
         responsibilities: [
          'Responsible for maintaining and deploying barista floor plan and schedules.',
-         'Assisting store manager with product organization and keep track of daily sales.',
-         'Create daily logs for safe funds, cash tills, and money drops for tips.'
+         'Assisting store manager with product organization and keeping track of daily sales.',
+         'Create daily logs for tracking safe funds, cash tills, and money drops for tips.'
         ]
       },
       
