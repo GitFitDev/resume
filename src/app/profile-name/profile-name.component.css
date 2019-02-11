@@ -50,3 +50,7 @@
   font-size: 12px;
 }
 
+.background-color {
+  background-color: rgb(211, 210, 210);
+  max-height: 100%;
+}

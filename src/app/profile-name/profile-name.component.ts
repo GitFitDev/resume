@@ -22,20 +22,20 @@ export class ProfileNameComponent implements OnInit {
         startDate: 'November 2018',
         endDate: 'Present',
         responsibilities: [
-         'Responsible for maintaining and developing on semi-conductor monitoring software (Cross platform desktop app built with Electron',
-         'Responsible for maintaining and developing on semi-conductor monitoring software (Cross platform desktop app built with Electron',
-         'Responsible for maintaining and developing on semi-conductor monitoring software (Cross platform desktop app built with Electron'
+         'Using Agile Development to handle company tasks with tickets.',
+         'Using Angular framework to handle client side tasks.',
+         'Participate in daily stand ups and bi-weekly sprint planning.'
         ]
       },
       {
         professionalExperience: 'Starbucks', 
-        jobTitle: 'Software Engineer Intern',
-        startDate: 'November 2018',
-        endDate: 'Present',
+        jobTitle: 'Assistant Store Manager',
+        startDate: 'December 2017',
+        endDate: 'November 2018',
         responsibilities: [
-         'Responsible for maintaining and developing on semi-conductor monitoring software (Cross platform desktop app built with Electron',
-         'Responsible for maintaining and developing on semi-conductor monitoring software (Cross platform desktop app built with Electron',
-         'Responsible for maintaining and developing on semi-conductor monitoring software (Cross platform desktop app built with Electron'
+         'Responsible for maintaining and deploying barista floor plan and schedules.',
+         'Assisting store manager with product organization and keep track of daily sales.',
+         'Create daily logs for safe funds, cash tills, and money drops for tips.'
         ]
       },
       
