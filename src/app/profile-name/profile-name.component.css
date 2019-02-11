@@ -1,6 +1,8 @@
+
 .card {
-  max-width: 375px;
-  max-height: flex;
+  /* max-width: 50px;
+  max-height: flex; */
+  margin: 20px;
 }
 
 .header-image {
@@ -9,13 +11,42 @@
 }
 
 .container {
-  width: auto;
-  height: 600px;
-  margin: 50px;
-  border: 5px solid black;
+  width: 80%;
+  height: 700px;
+  margin: 50px auto;
+  
 }
 
 .drawer {
-  background-color: grey;
+  padding: 10px;
+  margin: 10px 5px;
+  max-width: 300px;
+  background-color: purple;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.date {
+  float: right;
+  font-style: italic;
+  margin: 5px;
+}
+
+.professional-experience {
+  border: none;
+}
+
+.font {
+  font-size: 12px;
 }
 
