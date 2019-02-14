@@ -19,7 +19,7 @@ export class ProfileNameComponent implements OnInit {
       {
         professionalExperience: 'MindRight', 
         jobTitle: 'Software Engineer Intern',
-        startDate: 'November 2018 - ',
+        startDate: 'November 2018 -',
         endDate: 'Present',
         responsibilities: [
          'Using Agile Development to handle company tasks with tickets.',

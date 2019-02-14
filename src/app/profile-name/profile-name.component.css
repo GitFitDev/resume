@@ -2,7 +2,7 @@
 .card {
   /* max-width: 50px;
   max-height: flex; */
-  margin: 20px;
+  margin: 10px;
 }
 
 .header-image {
@@ -39,7 +39,7 @@
 .date {
   float: right;
   font-style: italic;
-  margin: 5px;
+  margin: 2px;
 }
 
 .professional-experience {
@@ -55,8 +55,8 @@
   height: 100%;
   margin: 0;
   padding: 0;
-  min-height: 100;
-  background-size: cover;
+ 
+  max-height: 100%;
 }
 
 .align {
@@ -64,3 +64,11 @@
   font-size: 12px
 }
 
+.font-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.fill {
+  background-color: rgb(211, 210, 210);
+}

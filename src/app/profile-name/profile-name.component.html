@@ -1,13 +1,15 @@
-<html class="background">
+<html class="fill">
   <body class="background">
+     <!-- Work Around to fill the top of the page whitespace -->
+    <mat-toolbar class="fill"></mat-toolbar>
     <mat-drawer-container class="container mat-elevation-z1 ">
       <mat-drawer mode="side" opened class="drawer">
         <!-- Mat Card For Contact Information and Picture -->
         <mat-card class="card">  
           <mat-card-header>
             <div mat-card-avatar class="header-image"></div>
-            <mat-card-title position="start">Courtney Revada-Luz</mat-card-title>
-            <mat-card-subtitle>Software Engineer Intern</mat-card-subtitle>
+            <mat-card-title position="start" class="font-name">Courtney Revada-Luz</mat-card-title>
+            <mat-card-subtitle class="font">Software Engineer Intern</mat-card-subtitle>
           </mat-card-header>
           <hr>
           <mat-card-content>
@@ -15,7 +17,7 @@
               <strong>
                 Phone:
               </strong> 
-                (916)616-3134
+                (916) 616-3134
             </p>
             <p class="font">
               <strong>
