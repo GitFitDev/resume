@@ -2,8 +2,14 @@ runtime: python27
 api_version: 1
 threadsafe: true
 handlers:
-- url: /
-  static_files: dist/index.html
-  upload: dist/index.html
-- url: /
-  static_dir: dist
+- url: /(.*\.(gif|png|jpg|css|js)(|\.map))$
+  static_files: dist/resume/\1
+  upload: dist/resume/(.*)(|\.map)
+
+- url: /.*
+  static_files: dist/resume/index.html
+  upload: dist/resume/index.html
+
+- url: /.*
+  static_files: dist/resume/index.html
+  upload: dist/resume/(.*)
