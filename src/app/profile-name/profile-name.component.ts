@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileNameComponent implements OnInit {
   technicalSkills = [];
   professionalExperiences = [];
+  color = 'purple';
   constructor() { 
     this.technicalSkills.push(
       {technicalSkill: 'JavaScript', experienceValue: '65'},
@@ -22,8 +23,8 @@ export class ProfileNameComponent implements OnInit {
         startDate: 'November 2018 -',
         endDate: 'Present',
         responsibilities: [
-         'Using Agile Development to handle company tasks with tickets.',
-         'Using Angular framework to handle client side tasks.',
+         'Worked directly with the Head of Engineering through multiple development product cycles and version iterations of enterprise Angular applications.',
+         'Participated in agile development by attending and collaborating in daily stand-ups and bi-weekly sprint planning.',
          'Participate in daily stand ups and bi-weekly sprint planning.'
         ]
       },
