@@ -20,12 +20,12 @@ export class ProfileNameComponent implements OnInit {
       {
         professionalExperience: 'MindRight', 
         jobTitle: 'Software Engineer Intern',
-        startDate: 'November 2018 -',
+        startDate: 'October 2018 -',
         endDate: 'Present',
         responsibilities: [
          'Worked directly with the Head of Engineering through multiple development product cycles and version iterations of enterprise Angular applications.',
          'Participated in agile development by attending and collaborating in daily stand-ups and bi-weekly sprint planning.',
-         'Participate in daily stand ups and bi-weekly sprint planning.'
+         'Responsible for creating and maintaining documentation for all software projects, software languages, and frameworks.'
         ]
       },
       {
@@ -35,8 +35,8 @@ export class ProfileNameComponent implements OnInit {
         endDate: 'November 2018',
         responsibilities: [
          'Responsible for maintaining and deploying barista floor plan and schedules.',
-         'Assisting store manager with product organization and keeping track of daily sales.',
-         'Create daily logs for tracking safe funds, cash tills, and money drops for tips.'
+         'Assisted General Manager with maintaining product placement, inventory counts, and store maintenance.',
+         'Managed daily logs to track safe and till funds, product sales, and employment labor.'
         ]
       },
       
