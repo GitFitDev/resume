@@ -2,8 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule, MatDividerModule, MatCardModule, MatProgressBarModule, MatToolbarModule} from '@angular/material';
+import {MatCheckboxModule, MatDividerModule, MatCardModule, MatProgressBarModule, MatToolbarModule, MatButtonModule} from '@angular/material';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
 
 
 import { AppComponent } from './app.component';
@@ -18,13 +19,14 @@ import { ProfileNameComponent } from './profile-name/profile-name.component';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatButtonModule,
     MatCheckboxModule,
     MatSidenavModule,
     MatDividerModule,
     MatCardModule,
     MatProgressBarModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

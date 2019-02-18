@@ -11,7 +11,7 @@
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   height: 700px;
   margin: 50px auto;
   
@@ -22,6 +22,7 @@
   margin: 10px 5px;
   max-width: 300px;
   background-color: purple;
+  border-radius: 4px;
 }
 
 .title-center {
@@ -44,6 +45,7 @@
 
 .professional-experience {
   border: none;
+  margin: 10px;
 }
 
 .font {
@@ -76,3 +78,13 @@
 ::ng-deep .mat-progress-bar-fill::after {
   background-color: purple;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 60%;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+

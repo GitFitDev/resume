@@ -1,5 +1,5 @@
 <html class="fill">
-  <body class="background">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">  <body class="background">
      <!-- Work Around to fill the top of the page whitespace -->
     <mat-toolbar class="fill"></mat-toolbar>
     <mat-drawer-container class="container mat-elevation-z1 ">
@@ -25,18 +25,22 @@
               </strong>
                 revadacourtney@gmail.com
             </p>
-              <p class="font">
-                <strong>
-                  Github:
-                </strong>
-                  https://github.com/GitFitDev/resume
-              </p>
-              <p class="font">
+            <p class="font">
               <strong>
                 Address:
               </strong>
                 143 Westway Apt# 203 Greenbelt, Maryland 20770
             </p>
+            <a href="https://github.com/GitFitDev/resume">
+            <button mat-button>
+              <i class="fab fa-github"></i>
+            </button>
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+              <button mat-button>
+                <i class="fab fa-linkedin"></i>
+              </button>
+              </a>
             <hr>
             <div class="align">
               <ul class="align">
@@ -53,7 +57,7 @@
         <!-- Mat Card for Technical Skills-->
         <mat-card class="card">
           <mat-card-content *ngFor="let skill of technicalSkills">
-            <h2 class="h2">{{ skill.technicalSkill }}</h2>
+            <h3 class="h2">{{ skill.technicalSkill }}</h3>
             <section class="section">
               <mat-progress-bar
                 mode="determinate"
@@ -84,7 +88,7 @@
           Professional Experience
         </mat-card-title>
         <mat-card-content *ngFor="let experience of professionalExperiences">
-          <h2>{{experience.professionalExperience}}</h2>
+          <h2 class="professional-experience">{{experience.professionalExperience}}</h2>
           <span class="job-title">{{experience.jobTitle}}</span>
           <span class="date">{{experience.endDate}}</span>
           <span class="date">{{experience.startDate}}</span>
